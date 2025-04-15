@@ -7,7 +7,7 @@ function FindProxyForURL(url, host) {
         shExpMatch(host, "api.mobilelegends.com") ||
         shExpMatch(host, "dl.mobilelegends.com")
     ) {
-        return "PROXY 192.168.1.4:8080"; // Ganti IP:port proxy kamu
+        return "PROXY 192.168.1.4:10313"; // Ganti IP:port proxy kamu
     }
 
     // Sisanya konek langsung tanpa proxy
