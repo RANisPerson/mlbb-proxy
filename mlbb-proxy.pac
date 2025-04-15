@@ -2,8 +2,6 @@ function FindProxyForURL(url, host) {
     // Daftar domain penting Mobile Legends
     if (
         shExpMatch(host, "*.mobilelegends.com") ||
-        shExpMatch(host, "*.ml.youngjoygame.com") ||
-        shExpMatch(host, "*.moba.vivo.com") ||
         shExpMatch(host, "api.mobilelegends.com") ||
         shExpMatch(host, "dl.mobilelegends.com")
     ) {
